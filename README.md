@@ -41,7 +41,7 @@ python video_face_detection.py -p deploy.prototxt -m res10_300x300_ssd_iter_1400
 ## Training(Optional)
 
 this is how you train the mask detector model\
-but a trained model is already provided\
+but a trained model is already provided
 ```
 python train_mask_detector.py -d dataset
 ```
