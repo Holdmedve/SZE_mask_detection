@@ -8,8 +8,8 @@ open a terminal and clone this repo
 git clone https://github.com/Holdmedve/SZE_mask_detection
 ```
 
-## (Optional)
-create a python virtual env
+## Virtual env(Optional)
+create a python virtual env\
 use **conda** for example
 ```
 conda activate ENVNAME
@@ -38,9 +38,10 @@ face detection with webcam
 python video_face_detection.py -p deploy.prototxt -m res10_300x300_ssd_iter_140000.caffemodel
 ```
 
-## Training
+## Training(Optional)
 
-train the mask detector model
+this is how you train the mask detector model\
+but a trained model is already provided\
 ```
 python train_mask_detector.py -d dataset
 ```
